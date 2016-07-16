@@ -1,5 +1,7 @@
 # Slate 
-A nifty bunch of boilerplate that serves as a great base for front-end projects. This was created for my own personal convenience, so it's very rough around the edges. If people *actually use this thing* I'll be sure to improve it.
+A nifty bunch of boilerplate that serves as a great base for front-end projects. This was created for my own personal convenience. If people *actually use this thing* I'll be sure to improve it.
+
+
 
 Technically speaking this starter kit doesn't do much. It is essentially the bare minimum for writing modern front-end projects
 
@@ -20,6 +22,10 @@ When you're ready to begin coding, just run `gulp`. Gulp will compile everything
 ## Configuration
 
 Edit the `settings` constant at the top of `gulpfile.babel.js` to change paths etc.
+
+## Roadmap
+
+- [ ] Add some super dooper basic flexbox grid (because float grid systems are so 2014).
 
 
 ## License

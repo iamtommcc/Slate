@@ -1,12 +1,13 @@
 {
   "name": "slate",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A handy bit of boilerplate for lean, SASS-powered front-end development.",
   "dependencies": {
     "normalize.css": "^3.0.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "git add -A"
   },
   "keywords": [
     "sass",
