@@ -1,25 +1,26 @@
 # Slate 
 A nifty bunch of boilerplate that serves as a great base for front-end projects. This was created for my own personal convenience, so it's very rough around the edges. If people *actually use this thing* I'll be sure to improve it.
 
-It's pretty basic, to be honest, but here's what you get:
-* SASS
-* Autoprefixer
-* Browser Sync
-* Normalize.css & Susy for a simple, unopinonated kickstart
+Technically speaking this starter kit doesn't do much. It is essentially the bare minimum for writing modern front-end projects
+
+* Component-friendly folder structure
+* SASS, PostCSS, Autoprefixer, Browser Sync, Browserify, Babel, Normalize.css
+* Globs your SASS so you don't have to keep updating `main.scss` every time you add a new component. Be careful with this though!
 * All powered by Gulp.
 
 
-## Installation
+## Installation & Usage
 
 Requires Node & NPM. 
 
-Clone to download the repo, navigate to it, and run `npm install`. When you're ready to begin coding, just type `gulp`. Gulp will auto compile your SASS and autoreload your browser thanks to Browser Sync
+Clone to download the repo, navigate to it, and run `npm install`.
 
-## Roadmap
+When you're ready to begin coding, just run `gulp`. Gulp will compile everything and keep watching.
 
-* Tidy up folder structure
-* Add more comments
-* Find a new grid system. Susy is incredible, but it adds 20ms to SASS compile per instance of `span()`. No bueno.
+## Configuration
+
+Edit the `settings` constant at the top of `gulpfile.babel.js` to change paths etc.
+
 
 ## License
 
